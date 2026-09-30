@@ -1,0 +1,35 @@
+# Release artifacts (build bundles)
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated audit reports and temporary test data
+gap-analysis-report.html
+demo-report.html
+*report*.html
+*audit*.json
+*report*.json
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Agent temporary logs and local metadata
+*.log
+.skill-meta.json

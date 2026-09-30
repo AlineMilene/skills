@@ -1,0 +1,44 @@
+{
+  "name": "repo-gap-analyzer",
+  "version": "1.2.0",
+  "description": "Technical repository evaluation and gap analysis skill across 25 engineering dimensions (Clean Code, Clean Architecture, SOLID, OOP, .NET/Runtime, Resilience, and Distributed System Design).",
+  "author": "Aline Milene",
+  "license": "CC-BY-4.0",
+  "entrypoint": "SKILL.md",
+  "keywords": [
+    "architecture-audit",
+    "technical-debt",
+    "gap-analysis",
+    "clean-code",
+    "clean-architecture",
+    "solid",
+    "oop",
+    "system-design",
+    "dotnet",
+    "csharp",
+    "resilience",
+    "html-report"
+  ],
+  "compatibility": {
+    "agents": [
+      "cursor",
+      "windsurf",
+      "claude-code",
+      "github-copilot",
+      "antigravity",
+      "devin",
+      "hive",
+      "aider",
+      "roo-code",
+      "cline",
+      "chatgpt-assistants"
+    ],
+    "python": ">=3.9"
+  },
+  "scripts": {
+    "scan": "scripts/scan_repo_structure.py",
+    "report": "scripts/generate_html_report.py",
+    "package": "scripts/package_skill.py",
+    "validate": "scripts/validate_skill.py"
+  }
+}
